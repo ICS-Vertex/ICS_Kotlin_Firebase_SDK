@@ -1,3 +1,4 @@
+// Copyright 2022 ICS Vertex
 package firebase.wrappers.firestore.enums
 
 enum class WhereOperator(val string: String) {

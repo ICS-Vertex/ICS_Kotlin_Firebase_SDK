@@ -1,3 +1,4 @@
+// Copyright 2022 ICS Vertex
 package firebase.wrappers.database.classes.core
 
 import firebase.wrappers.firestore.classes.core.FirestoreApp

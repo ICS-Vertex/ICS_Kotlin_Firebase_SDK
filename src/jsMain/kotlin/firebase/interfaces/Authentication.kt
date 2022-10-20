@@ -1,3 +1,4 @@
+// Copyright 2022 ICS Vertex
 package firebase.interfaces
 
 import firebase.wrappers.FirebaseAppImpl

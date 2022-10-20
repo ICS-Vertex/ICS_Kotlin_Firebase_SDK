@@ -1,3 +1,4 @@
+// Copyright 2022 ICS Vertex
 @file:JsModule("firebase/database")
 @file:JsNonModule
 

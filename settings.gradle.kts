@@ -1,3 +1,2 @@
-
-rootProject.name = "ICS_Kotlin_Firebase_SDK"
+rootProject.name = "kotlin_firebase_sdk"
 

@@ -4,7 +4,7 @@ plugins {
     id("maven-publish")
 }
 
-group = "org.example"
+group = "nl.ics"
 version = "1.0.0-alpha"
 
 repositories {
@@ -15,7 +15,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/ICS-Vertex/ICS_Kotlin_Js_Firebase_SDK") // Github Package
+            url = uri("https://maven.pkg.github.com/ICS-Vertex/ICS_Kotlin_Firebase_SDK") // Github Package
             credentials {
                 username = System.getenv("GITHUB_USER")
                 password = System.getenv("GITHUB_TOKEN")
