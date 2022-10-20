@@ -1,5 +1,6 @@
-![Firebase](https://img.shields.io/badge/firebase-V9.12.1-%23039BE5.svg?style=for-the-badge&logo=firebase)
-![License](https://img.shields.io/badge/License-Apache--2.0-%23039BE5.svg?style=for-the-badge&logo=license)
+[![Kotlin-js](https://img.shields.io/badge/Kotlin--js-V1.7.10-%23039BE5.svg?style=for-the-badge&logo=kotlin)](https://kotlinlang.org/docs/whatsnew17.html)
+[![Firebase](https://img.shields.io/badge/firebase-V9.12.1-%23039BE5.svg?style=for-the-badge&logo=firebase)](https://firebase.google.com/support/release-notes/js)
+[![License](https://img.shields.io/badge/License-Apache--2.0-%23039BE5.svg?style=for-the-badge&logo=license)](https://github.com/ICS-Vertex/ICS_Kotlin_Firebase_SDK/blob/master/License.md)
 
 Available products from firebase
 * Authentication
