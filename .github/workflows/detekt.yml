@@ -80,7 +80,7 @@ jobs:
       run: |
         dest=$( mktemp -d )
         curl --request GET \
-          --url $DETEKT_DOWNLOAD_URL \
+          --url https://github.com/detekt/detekt/releases/download/v1.22.0-RC2/detekt-cli-1.22.0-RC2-all.jar \
           --silent \
           --location \
           --output $dest/detekt
