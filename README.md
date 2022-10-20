@@ -1,3 +1,6 @@
+![Firebase](https://img.shields.io/badge/firebase-V9.12.1-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![License](https://img.shields.io/badge/License-Apache--2.0-%23039BE5.svg?style=for-the-badge&logo=license)
+
 Available products from firebase
 * Authentication
 * Realtime database
