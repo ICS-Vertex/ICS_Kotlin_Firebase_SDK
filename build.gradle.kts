@@ -39,6 +39,12 @@ kotlin {
             commonWebpackConfig {
                 cssSupport.enabled = true
             }
+            testTask {
+                useKarma {
+//                    useChrome()
+                    useFirefox()
+                }
+            }
         }
     }
     val hostOs = System.getProperty("os.name")
@@ -62,10 +68,14 @@ kotlin {
         val jsMain by getting {
             dependencies {
                 implementation("org.jetbrains.kotlin-wrappers:kotlin-js:1.0.0-pre.351")
-                implementation(npm("firebase", "9.12.1"))
+                api(npm("firebase", "9.12.1"))
             }
         }
-        val jsTest by getting
+        val jsTest by getting {
+            dependencies {
+                implementation(kotlin("test-js"))
+            }
+        }
         val nativeMain by getting
         val nativeTest by getting
     }
